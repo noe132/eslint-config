@@ -1,7 +1,7 @@
 {
   "name": "@noe132/eslint-config-react",
-  "version": "0.0.1",
-  "description": "eslint config with typescript and react/vue",
+  "version": "0.0.3",
+  "description": "eslint config with typescript and react",
   "main": "index.js",
   "author": "noe132 <nnnnoe132@gmail.com>",
   "license": "MIT",
@@ -14,7 +14,7 @@
   },
   "homepage": "https://github.com/noe132/eslint-config",
   "dependencies": {
-    "@noe132/eslint-config-base": "^0.0.1",
+    "@noe132/eslint-config-base": "0.0.3",
     "eslint-plugin-react": "^7.24.0",
     "eslint-plugin-react-hooks": "^4.2.0"
   },

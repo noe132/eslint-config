@@ -9,7 +9,7 @@ module.exports = {
     './airbnb/imports',
     './airbnb/strict',
   ].map(require.resolve),
-  parser: 'babel-eslint',
+  parser: '@babel/eslint-parser',
   parserOptions: {
     ecmaVersion: 2020,
     ecmaFeatures: {
