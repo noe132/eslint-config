@@ -1,6 +1,6 @@
 {
   "name": "@noe132/eslint-config-base",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "eslint config with typescript",
   "main": "index.js",
   "author": "noe132 <nnnnoe132@gmail.com>",

@@ -1,6 +1,6 @@
 {
   "name": "@noe132/eslint-config-react",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "eslint config with typescript and react",
   "main": "index.js",
   "author": "noe132 <nnnnoe132@gmail.com>",
@@ -14,7 +14,7 @@
   },
   "homepage": "https://github.com/noe132/eslint-config",
   "dependencies": {
-    "@noe132/eslint-config-base": "0.0.3",
+    "@noe132/eslint-config-base": "0.0.4",
     "eslint-plugin-react": "^7.24.0",
     "eslint-plugin-react-hooks": "^4.2.0"
   },

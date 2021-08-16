@@ -244,7 +244,7 @@ module.exports = {
       'dot-notation': 'off',
       '@typescript-eslint/dot-notation': 'error',
 
-      'no-space-func': 'off',
+      'no-spaced-func': 'off',
       'func-call-spacing': 'off',
       '@typescript-eslint/func-call-spacing': ['error', 'never'],
 
