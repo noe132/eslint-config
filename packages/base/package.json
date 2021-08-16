@@ -1,5 +1,5 @@
 {
-  "name": "@noe132/eslint-config",
+  "name": "@noe132/eslint-config-base",
   "version": "0.0.1",
   "description": "eslint config with typescript and react/vue",
   "main": "index.js",
@@ -20,10 +20,7 @@
     "confusing-browser-globals": "^1.0.10",
     "eslint-import-resolver-typescript": "^2.4.0",
     "eslint-plugin-import": "^2.24.0",
-    "eslint-plugin-jsdoc": "^36.0.7",
-    "eslint-plugin-react": "^7.24.0",
-    "eslint-plugin-react-hooks": "^4.2.0",
-    "eslint-plugin-vue": "^7.16.0"
+    "eslint-plugin-jsdoc": "^36.0.7"
   },
   "peerDependencies": {
     "eslint": ">= 7.32.0",

@@ -8,7 +8,7 @@ presets for eslint with typescript and react/vue3
 // .eslintrc.js
 module.exports = {
   'extends': [
-    '@noe132/eslint-config',
+    '@noe132/eslint-config-base',
   ],
 }
 ```
@@ -18,7 +18,7 @@ module.exports = {
 // .eslintrc.js
 module.exports = {
   'extends': [
-    '@noe132/eslint-config/react',
+    '@noe132/eslint-config-react',
   ],
 }
 ```
@@ -29,7 +29,7 @@ module.exports = {
 // .eslintrc.js
 module.exports = {
   'extends': [
-    '@noe132/eslint-config/vue3',
+    '@noe132/eslint-config-vue',
   ],
 }
 ```
