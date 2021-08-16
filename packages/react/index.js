@@ -114,4 +114,11 @@ module.exports = {
     'react-hooks/rules-of-hooks': 'error',
     'react-hooks/exhaustive-deps': 'off',
   },
+
+  overrides: [{
+    files: ['*.d.ts'],
+    rules: {
+      'react/no-typos': 'off',
+    },
+  }],
 }
