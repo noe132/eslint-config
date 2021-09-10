@@ -13,7 +13,7 @@ module.exports = {
 
   rules: {
     /* Static analysis */
-    'import/no-unresolved': ['error', { commonjs: true, caseSensitive: false }],
+    'import/no-unresolved': ['error', { commonjs: true }],
     'import/named': 'error',
     'import/default': 'error',
     'import/namespace': 'error',
