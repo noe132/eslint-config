@@ -6,6 +6,7 @@ module.exports = {
       jsx: true,
     },
     sourceType: 'module',
+    requireConfigFile: false,
   },
   rules: {
     'class-methods-use-this': 'off', // some time it needed
