@@ -165,11 +165,13 @@ module.exports = {
       '@typescript-eslint/no-implied-eval': 'error',
       '@typescript-eslint/no-inferrable-types': 'off',
       '@typescript-eslint/no-invalid-void-type': 'error',
+      '@typescript-eslint/no-meaningless-void-operator': 'off',
       '@typescript-eslint/no-misused-new': 'error',
       // false positive
       '@typescript-eslint/no-misused-promises': 'off',
       '@typescript-eslint/no-namespace': 'error',
       '@typescript-eslint/no-non-null-asserted-optional-chain': 'error',
+      '@typescript-eslint/no-non-null-asserted-nullish-coalescing': 'error',
       '@typescript-eslint/no-non-null-assertion': 'off',
       '@typescript-eslint/no-parameter-properties': 'error',
       '@typescript-eslint/no-require-imports': 'error',
@@ -310,6 +312,9 @@ module.exports = {
 
       'no-magic-numbers': 'off',
       '@typescript-eslint/no-magic-numbers': 'off',
+
+      'padding-line-between-statements': 'off',
+      '@typescript-eslint/padding-line-between-statements': 'off',
 
       'no-redeclare': 'off',
       '@typescript-eslint/no-redeclare': 'off',

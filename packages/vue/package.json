@@ -1,6 +1,6 @@
 {
   "name": "@noe132/eslint-config-vue",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "eslint config with typescript and vue",
   "main": "index.js",
   "author": "noe132 <nnnnoe132@gmail.com>",
@@ -14,8 +14,8 @@
   },
   "homepage": "https://github.com/noe132/eslint-config",
   "dependencies": {
-    "@noe132/eslint-config-base": "0.0.6",
-    "eslint-plugin-vue": "^7.17.0"
+    "@noe132/eslint-config-base": "0.0.7",
+    "eslint-plugin-vue": "^7.19.1"
   },
   "peerDependencies": {
     "eslint": ">= 7.32.0",
