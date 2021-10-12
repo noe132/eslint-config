@@ -1,6 +1,6 @@
 {
   "name": "@noe132/eslint-config-vue",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "eslint config with typescript and vue",
   "main": "index.js",
   "author": "noe132 <nnnnoe132@gmail.com>",

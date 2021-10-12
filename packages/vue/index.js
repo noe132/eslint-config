@@ -1,11 +1,11 @@
 module.exports = {
+  extends: [
+    '@noe132/eslint-config-base',
+    'plugin:vue/vue3-recommended',
+  ],
+
   overrides: [{
     files: ['*.vue'],
-
-    extends: [
-      '@noe132/eslint-config-base',
-      'plugin:vue/vue3-recommended',
-    ],
 
     rules: {
       // disable some rules due to vue-eslint-parset limitation
