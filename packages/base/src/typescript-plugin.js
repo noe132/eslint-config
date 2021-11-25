@@ -85,6 +85,7 @@ module.exports = {
         objectLiteralTypeAssertions: 'allow-as-parameter',
       }],
       '@typescript-eslint/consistent-type-definitions': ['error', 'interface'],
+      '@typescript-eslint/consistent-type-exports': 'off',
       '@typescript-eslint/explicit-function-return-type': 'off',
       '@typescript-eslint/explicit-member-accessibility': 'error',
       '@typescript-eslint/explicit-module-boundary-types': 'off',
@@ -190,7 +191,6 @@ module.exports = {
       '@typescript-eslint/no-unsafe-call': 'error',
       '@typescript-eslint/no-unsafe-member-access': 'off',
       '@typescript-eslint/no-unsafe-return': 'error',
-      '@typescript-eslint/no-unused-vars-experimental': 'error',
       '@typescript-eslint/no-var-requires': 'error',
       '@typescript-eslint/non-nullable-type-assertion-style': 'error',
       '@typescript-eslint/prefer-as-const': 'error',
@@ -330,7 +330,7 @@ module.exports = {
       }],
 
       'no-unused-vars': 'off',
-      '@typescript-eslint/no-unused-vars': 'off',
+      '@typescript-eslint/no-unused-vars': 'error',
 
       'no-use-before-define': 'off',
       '@typescript-eslint/no-use-before-define': ['error', {

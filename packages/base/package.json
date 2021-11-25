@@ -1,6 +1,6 @@
 {
   "name": "@noe132/eslint-config-base",
-  "version": "0.0.7",
+  "version": "0.1.0",
   "description": "eslint config with typescript",
   "main": "index.js",
   "author": "noe132 <nnnnoe132@gmail.com>",
@@ -14,16 +14,16 @@
   },
   "homepage": "https://github.com/noe132/eslint-config",
   "dependencies": {
-    "@babel/eslint-parser": "^7.15.8",
-    "@typescript-eslint/eslint-plugin": "^4.33.0",
-    "@typescript-eslint/parser": "^4.33.0",
+    "@babel/eslint-parser": "^7.16.3",
+    "@typescript-eslint/eslint-plugin": "^5.4.0",
+    "@typescript-eslint/parser": "^5.4.0",
     "confusing-browser-globals": "^1.0.10",
     "eslint-import-resolver-typescript": "^2.5.0",
-    "eslint-plugin-import": "^2.24.2",
-    "eslint-plugin-jsdoc": "^36.1.1"
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-jsdoc": "^37.0.3"
   },
   "peerDependencies": {
-    "eslint": ">= 7.32.0",
+    "eslint": ">= 8.0.0",
     "typescript": "> 4.0.0"
   }
 }
