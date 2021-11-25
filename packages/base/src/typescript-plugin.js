@@ -330,7 +330,11 @@ module.exports = {
       }],
 
       'no-unused-vars': 'off',
-      '@typescript-eslint/no-unused-vars': 'error',
+      '@typescript-eslint/no-unused-vars': ['error', {
+        ignoreRestSiblings: true,
+        varsIgnorePattern: '^_',
+        argsIgnorePattern: '^_',
+      }],
 
       'no-use-before-define': 'off',
       '@typescript-eslint/no-use-before-define': ['error', {
