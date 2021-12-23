@@ -29,7 +29,6 @@ module.exports = {
         'singleline': Infinity,
         'multiline': {
           'max': 1,
-          'allowFirstLine': false,
         },
       }],
 
