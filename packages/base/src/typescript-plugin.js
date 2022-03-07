@@ -175,6 +175,7 @@ module.exports = {
       '@typescript-eslint/no-non-null-asserted-nullish-coalescing': 'error',
       '@typescript-eslint/no-non-null-assertion': 'off',
       '@typescript-eslint/no-parameter-properties': 'error',
+      '@typescript-eslint/no-redundant-type-constituents': 'error',
       '@typescript-eslint/no-require-imports': 'error',
       '@typescript-eslint/no-this-alias': 'error',
       '@typescript-eslint/no-throw-literal': 'error',
@@ -191,6 +192,7 @@ module.exports = {
       '@typescript-eslint/no-unsafe-call': 'error',
       '@typescript-eslint/no-unsafe-member-access': 'off',
       '@typescript-eslint/no-unsafe-return': 'error',
+      '@typescript-eslint/no-useless-empty-export': 'error',
       '@typescript-eslint/no-var-requires': 'error',
       '@typescript-eslint/non-nullable-type-assertion-style': 'error',
       '@typescript-eslint/prefer-as-const': 'error',
@@ -358,6 +360,9 @@ module.exports = {
 
       'semi': 'off',
       '@typescript-eslint/semi': ['error', 'never'],
+
+      'space-before-blocks': 'off',
+      '@typescript-eslint/space-before-blocks': 'error',
 
       'space-before-function-paren': 'off',
       '@typescript-eslint/space-before-function-paren': ['error', {

@@ -37,6 +37,7 @@ module.exports = {
       'vue/html-button-has-type': 'off',
       'vue/max-len': 'off',
       'vue/padding-line-between-blocks': 'off',
+      'vue/prefer-true-attribute-shorthand': 'error',
       'vue/require-direct-export': 'off',
       'vue/require-name-property': 'off',
       'vue/sort-keys': 'off',
