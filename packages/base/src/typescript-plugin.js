@@ -155,6 +155,7 @@ module.exports = {
       '@typescript-eslint/no-confusing-void-expression': ['error', {
         'ignoreArrowShorthand': true,
       }],
+      '@typescript-eslint/no-duplicate-enum-values': 'error',
       '@typescript-eslint/no-dynamic-delete': 'off',
       '@typescript-eslint/no-empty-interface': 'off',
       '@typescript-eslint/no-explicit-any': 'off',
