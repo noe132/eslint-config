@@ -79,6 +79,7 @@ module.exports = {
         },
       }],
       '@typescript-eslint/class-literal-property-style': 'off',
+      '@typescript-eslint/consistent-generic-constructors': 'off',
       '@typescript-eslint/consistent-indexed-object-style': 'error',
       '@typescript-eslint/consistent-type-assertions': ['off', {
         assertionStyle: 'as',
