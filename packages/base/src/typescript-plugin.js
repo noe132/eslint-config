@@ -20,6 +20,7 @@ module.exports = {
     rules: {
       'vue/script-indent': 'off',
       'no-undef': 'off',
+      'array-callback-return': 'off',
 
       // conficts with typescript overload
       'no-dupe-class-members': 'off',
