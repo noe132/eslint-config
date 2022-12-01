@@ -103,33 +103,8 @@ module.exports = {
       }],
       '@typescript-eslint/member-ordering': ['error', {
         default: [
-          'public-abstract-field',
-          'protected-abstract-field',
-          'private-abstract-field',
-
-          'public-abstract-method',
-          'protected-abstract-method',
-          'private-abstract-method',
-
-          'public-static-field',
-          'protected-static-field',
-          'private-static-field',
-
-          'public-static-method',
-          'protected-static-method',
-          'private-static-method',
-
-          'public-instance-field',
-          'protected-instance-field',
-          'private-instance-field',
-
-          'public-constructor',
-          'protected-constructor',
-          'private-constructor',
-
-          'public-instance-method',
-          'protected-instance-method',
-          'private-instance-method',
+          'field',
+          'method',
         ],
       }],
       '@typescript-eslint/method-signature-style': ['error', 'property'],
