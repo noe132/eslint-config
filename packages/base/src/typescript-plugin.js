@@ -207,7 +207,7 @@ module.exports = {
       }],
       '@typescript-eslint/typedef': 'off',
       '@typescript-eslint/unbound-method': 'off',
-      '@typescript-eslint/unified-signatures': 'error',
+      '@typescript-eslint/unified-signatures': ['error', { ignoreDifferentlyNamedParameters: true }],
 
 
       // Extension Rules

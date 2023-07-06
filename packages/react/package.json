@@ -1,6 +1,6 @@
 {
   "name": "@noe132/eslint-config-react",
-  "version": "0.1.8",
+  "version": "0.1.10",
   "description": "eslint config with typescript and react",
   "main": "index.js",
   "author": "noe132 <nnnnoe132@gmail.com>",
@@ -14,8 +14,8 @@
   },
   "homepage": "https://github.com/noe132/eslint-config",
   "dependencies": {
-    "@noe132/eslint-config-base": "^0.1.8",
-    "eslint-plugin-react": "^7.31.11",
+    "@noe132/eslint-config-base": "^0.1.10",
+    "eslint-plugin-react": "^7.32.2",
     "eslint-plugin-react-hooks": "^4.6.0"
   },
   "peerDependencies": {
