@@ -80,6 +80,7 @@ module.exports = {
         },
       }],
       '@typescript-eslint/class-literal-property-style': 'off',
+      '@typescript-eslint/class-methods-use-this': 'off',
       '@typescript-eslint/consistent-generic-constructors': 'off',
       '@typescript-eslint/consistent-indexed-object-style': 'error',
       '@typescript-eslint/consistent-type-assertions': ['off', {
@@ -140,7 +141,6 @@ module.exports = {
       '@typescript-eslint/no-extraneous-class': ['error', { allowEmpty: true }],
       '@typescript-eslint/no-floating-promises': 'off', // too much noise
       '@typescript-eslint/no-for-in-array': 'error',
-      '@typescript-eslint/no-implicit-any-catch': 'off',
       '@typescript-eslint/no-implied-eval': 'error',
       '@typescript-eslint/no-inferrable-types': 'off',
       '@typescript-eslint/no-invalid-void-type': 'error',
@@ -152,7 +152,6 @@ module.exports = {
       '@typescript-eslint/no-non-null-asserted-optional-chain': 'error',
       '@typescript-eslint/no-non-null-asserted-nullish-coalescing': 'error',
       '@typescript-eslint/no-non-null-assertion': 'off',
-      '@typescript-eslint/no-parameter-properties': 'error',
       '@typescript-eslint/no-redundant-type-constituents': 'error',
       '@typescript-eslint/no-require-imports': 'error',
       '@typescript-eslint/no-this-alias': 'error',
@@ -193,7 +192,6 @@ module.exports = {
       '@typescript-eslint/restrict-plus-operands': 'error',
       '@typescript-eslint/restrict-template-expressions': 'error',
       '@typescript-eslint/strict-boolean-expressions': 'off', // too much noise
-      '@typescript-eslint/sort-type-union-intersection-members': 'off',
       '@typescript-eslint/triple-slash-reference': ['error', {
         path: 'never',
         types: 'never',
@@ -257,9 +255,6 @@ module.exports = {
 
       'no-array-constructor': 'off',
       '@typescript-eslint/no-array-constructor': 'error',
-
-      'no-duplicate-imports': 'off',
-      '@typescript-eslint/no-duplicate-imports': 'off',
 
       'no-empty-function': 'off',
       '@typescript-eslint/no-empty-function': ['error', {
